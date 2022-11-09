@@ -1,6 +1,10 @@
+
 """"
 ### Lists ###
 """
+
+print('###########################################################')
+print('--- LISTS ---')
 print('###########################################################')
 friends = ['Kevin', 'Karen', 'Jim', 'Oscar', 'Toby']
 lucky_numbers = [4, 8, 15, 16, 23, 42]
@@ -25,6 +29,7 @@ print('###########################################################')
 """"
 ### Tuples ### (Can't be modified)
 """
+print('--- TUPLES ---')
 print('###########################################################')
 coordinates = [(4, 5), (6, 7), (80, 34)]
 coordinates[1] = (7,8) #we modified the list, not the tuple, that's why this is allowed
@@ -34,7 +39,8 @@ print('###########################################################')
 """"
 ### Functions ###
 """
-
+print('--- FUNCTIONS ---')
+print('###########################################################')
 def say_hi(user, age):
     print('hello '+user + ' your age is '+ str(age))
 say_hi('Jack', 89)
@@ -43,11 +49,12 @@ def cube(num):
     return pow(num,3)
 print('the cube of 3 is '+ str(cube(3)))
 print('###########################################################')
-print('###########################################################')
+
 """"
 ### If statement ###
 """
-
+print('--- IF STATEMENT ---')
+print('###########################################################')
 is_male = False
 is_tale = True
 if is_male or is_tale:
@@ -60,11 +67,11 @@ if is_male and is_tale:
 else:
     print('your either not male or not tall')
 print('###########################################################')
-print('###########################################################')
 """"
 ### If statement and comparissons ###
 """
-
+print('--- IF STATEMENT AND COMPARISSONS ---')
+print('###########################################################')
 def max_num(num1, num2, num3):
     if num1 >= num2 and num1 >= num3:
         return num1
@@ -73,12 +80,4 @@ def max_num(num1, num2, num3):
     else:
         return num3
 print('The max number is: '+str(max_num(3, 40, 5)))
-
 print('###########################################################')
-
-
-
-
-
-
-

@@ -3,6 +3,8 @@ from math import *
 ######Drawing a shape######
 """
 print('###########################################################')
+print('--- DRAWING A SHAPE ---')
+print('###########################################################')
 print("      /|")
 print("     / | ")
 print("    /  |")
@@ -13,6 +15,7 @@ print('###########################################################')
 """
 ### Variables & datatypes ###
 """
+print('--- VARIABLES & DATATYPES ---')
 print('###########################################################')
 character_name = 'Tom' #python string
 character_age = 50 #python integer
@@ -26,6 +29,7 @@ print('###########################################################')
 """
 Working with strings
 """
+print('--- WORKING WITH STRINGS ---')
 print('###########################################################')
 phrase = 'Giraffe Academy'
 print(phrase.lower()) #string to lowercase
@@ -44,6 +48,7 @@ print('###########################################################')
 """
 Working with numbers
 """
+print('--- WORKING WITH NUMBERS ---')
 print('###########################################################')
 my_num = 5 # python integer
 print(my_num) #printing python integer
@@ -60,6 +65,7 @@ print('###########################################################')
 """
 Getting input from users
 """
+print('--- GETTING INPUT FROM USERS ---')
 print('###########################################################')
 name = input('Enter your name: ')
 age = input('Enter your age: ')
@@ -70,6 +76,7 @@ print('###########################################################')
 """
 ###Building a basic calculator###
 """
+print('--- BUILDING A BASIC CALCULATOR ---')
 print('###########################################################')
 num1 = input('Enter a number: ')
 num2 = input('Enter another number: ')
@@ -79,10 +86,10 @@ result2 = float(num1) + int(num2)
 print(result2)
 print('###########################################################')
 
-print('###########################################################')
 """
 ###Madlib games###
 """
+print('--- MADLIB GAMES ---')
 print('###########################################################')
 color = input('Enter a color: ')
 plural_noun = input ('Enter a Plural Noun: ')

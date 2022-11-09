@@ -2,6 +2,8 @@ print('###########################################################')
 """"
 ### Building a better calculator ###
 """
+print('--- BUILDING A BETTER CALCULATOR ---')
+print('###########################################################')
 # num1 = float(input('Enter first number: '))
 # op = input('Enter operator number: ')
 # num2 = float(input('Enter second number: '))
@@ -16,11 +18,11 @@ print('###########################################################')
 # else:
 #     print('Invalid operator')
 print('###########################################################')
-
-print('###########################################################')
 """"
 ### Dictionaries ###
 """
+print('--- DICTIONARIES ---')
+print('###########################################################')
 months_conversion = {
     0:'January',
     1:'February',
@@ -32,10 +34,11 @@ print(months_conversion.get(1))
 print(months_conversion['Mar'])
 print('###########################################################')
 
-print('###########################################################')
 """"
 ### While loop ###
 """
+print('--- WHILE LOOP ---')
+print('###########################################################')
 i = 1
 while i <=10:
     print(i)
@@ -47,6 +50,8 @@ print('###########################################################')
 """"
 ### Buildin a guessing game ###
 """
+print('--- BUILDING A GUESSING GAME ---')
+print('###########################################################')
 # secret_word = 'giraffe'
 # guess = ''
 # guess_count = 0
@@ -63,10 +68,11 @@ print('###########################################################')
 # else:
 #     print('you win!')
 print('###########################################################')
-print('###########################################################')
 """
 ### For loops ###
 """
+print('--- FOR LOOPS ---')
+print('###########################################################')
 for letter in "Giraffe Academy":
     print(letter)
 friends = ['Jim', 'Karen', 'Kevin']
@@ -78,10 +84,11 @@ for index in range(5):
     else:
         print('Not first')
 print('###########################################################')
-print('###########################################################')
 """
 ### Exponent function ###
 """
+print('--- EXPONENT FUNCTIONS ---')
+print('###########################################################')
 def raise_to_power(base, pow):
     result = 1
     for i in range(pow):
@@ -89,10 +96,11 @@ def raise_to_power(base, pow):
     return result
 print(raise_to_power(2, 4))
 print('###########################################################')
-print('###########################################################')
 """
 ### 2D lists and nested loops ###
 """
+print('--- 2D LISTS AND NESTED LOOPS ---')
+print('###########################################################')
 number_grid = [
     [1,2,3],
     [4,5,6],
@@ -108,10 +116,12 @@ for row in number_grid:
     for col in row:
         print(col)
 print('###########################################################')
-print('###########################################################')
+
 """
 ### Building a translator ###
 """
+print('--- BUILDING A TRANSLATOR ---')
+print('###########################################################')
 def translate(phrase):
     translation = ''
     for letter in phrase:
@@ -125,9 +135,10 @@ def translate(phrase):
     return translation
 print(translate(input('Enter a phrase: ')))
 print('###########################################################')
+"""
+### COMMENTS ARE FUN ###
+"""
+print('--- COMMENTS ARE FUN---')
 print('###########################################################')
-"""
-### Building a translator ###
-"""
 #print('Comments are fun')
 print('###########################################################')
